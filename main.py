@@ -48,11 +48,13 @@ for i in range(len(answer)):
     if(correct[i]==user_answer):
         print("Правильный ответ")
         print("score:")
-        print(score+500)
+        score=score+500
+        print(score)
     else:
         print("Неправильный ответ")
         print("score:")
-        print(score-500)
+        score=score-500
+        print(score)
 
 
 
